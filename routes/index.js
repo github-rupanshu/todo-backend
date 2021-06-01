@@ -15,7 +15,7 @@ router.use("/api", require("./api"));
 
 router.get("/ping", (req, res) => {
   return res.status(200).json({
-    msg: "Pong",
+    msg: "Pong !!! You are currently pingging todo backend api hosted on heroku from github repo: https://github.com/github-rupanshu/todo-backend.git",
   });
 });
 
